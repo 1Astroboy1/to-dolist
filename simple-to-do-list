@@ -31,12 +31,9 @@ def main():
         elif choice == "2":
             todo_list.view_tasks()
         elif choice == "3":
-            task_number = int(input("Enter the task number to mark as done: "))
-            todo_list.mark_task_as_done(task_number)
-        elif choice == "4":
             task_number = int(input("Enter the task number to remove: "))
             todo_list.remove_task(task_number)
-        elif choice == "5":
+        elif choice == "4":
             break
         else:
             print("Invalid choice. Please try again.")
